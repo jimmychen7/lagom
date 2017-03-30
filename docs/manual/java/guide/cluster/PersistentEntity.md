@@ -162,7 +162,7 @@ Note that the `AskTimeoutException` is not a guarantee that the command was not 
 
 ## Serialization
 
-JSON is the recommended format the persisted events and state.  The [[Serialization|Serialization]] section describes how to add Jackson serialization support to such classes and also how to evolve the classes, which is especially important for the persistent state and events, since you must be able to deserialize old objects that were stored.
+JSON is the recommended format for the persisted events and state.  The [[Serialization|Serialization]] section describes how to add Jackson serialization support to such classes and also how to evolve the classes, which is especially important for the persistent state and events, since you must be able to deserialize old objects that were stored.
 
 ## Unit Testing
 
